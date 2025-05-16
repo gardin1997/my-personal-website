@@ -1,3 +1,3 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+function afficherMessage() {
+  alert("Bonjour ! Merci d'avoir cliqué sur le bouton 😊");
+}
